@@ -11,21 +11,6 @@ public class Test1
     public static async UniTaskVoid TestFunc()
     {
         await DoSomeThing();
-        //string[] scenes = new string[]
-        //{
-        //    "Assets/Scenes/SandboxMain.unity",
-        //};
-
-        //try
-        //{
-        //    Debug.Log("Build Begin");
-        //    BuildPipeline.BuildPlayer(scenes, Application.dataPath + "../target", BuildTarget.StandaloneWindows, BuildOptions.CompressWithLz4);
-        //    Debug.Log("Build After");
-        //}
-        //catch (Exception e)
-        //{
-        //    Debug.LogError(e.Message);
-        //}
     }
 
     public static async UniTask DoSomeThing()
