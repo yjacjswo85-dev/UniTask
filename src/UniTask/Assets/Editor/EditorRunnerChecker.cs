@@ -26,6 +26,8 @@ public static class EditorRunnerChecker
 
         await UniTask.DelayFrame(30);
 
+        
+
         Debug.Log("End");
     }
 }
